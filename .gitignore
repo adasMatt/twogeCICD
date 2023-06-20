@@ -165,3 +165,9 @@ dmypy.json
 # Pyre type checker
 
 # End of https://www.gitignore.io/api/flask,python
+
+# added by Matt
+docker-compose.yml
+Dockerfile-gunicorn
+dockerScript.sh
+howToGeekPostgreSQLDockerTutorial.sh
