@@ -170,4 +170,9 @@ dmypy.json
 docker-compose.yml
 Dockerfile-gunicorn
 dockerScript.sh
-howToGeekPostgreSQLDockerTutorial.sh
+ebCommandsAndHowToGeekPostgreSQLDockerTutorial.sh
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
