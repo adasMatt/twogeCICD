@@ -1,4 +1,4 @@
-name: Deploy Static game to EB using GA CICD using Dockerhub
+name: Deploy Twoge to EB using GA CICD and Dockerhub
 
 on:
   push:
