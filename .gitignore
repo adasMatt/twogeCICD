@@ -173,6 +173,7 @@ dockerScript.sh
 ebCommandsAndHowToGeekPostgreSQLDockerTutorial.sh
 
 # Elastic Beanstalk Files
-.elasticbeanstalk/*
+# .elasticbeanstalk/*
+!.elasticbeanstalk/config.yml
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
