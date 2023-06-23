@@ -18,13 +18,14 @@ Twoge is a social media platform dedicated solely to tweets about Dodge. This ap
 
 ## App launch and CICD Implementation
 Before CICD, the application is brought up and running via:
-1. Terraform technology to create the RDS instance (not included in this repo, but see Other Things topic below for more information on how to set that up) 
-2. Elastic Beanstalk CLI commands:
+1. Terraform technology to create the RDS instance (not included in this repo, but see Other Things topic below for more information on how to set that up)
+2. Dockerfile (add more detail)
+3. Elastic Beanstalk CLI commands:
  	- eb init
  	- eb create twoge-app-server --single
  	- eb setenv SQLALCHEMY_DATABASE_URI=postgresql://<user>:<password>@<path-to-db-host>:5432/twogedbtf
  	- eb deploy
-3. Now the app is running and it is .github/workflows/cicd.yml's time to shine :)
+4. Now the app is running and it is .github/workflows/cicd.yml's time to shine :)
 	- tbc. What to inlcude? Different Jobs explained?
  	- 
 
