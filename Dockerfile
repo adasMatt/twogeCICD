@@ -1,5 +1,7 @@
 FROM python:alpine
 
+# Chandra said he would prefer to see db environment here
+
 # borrowed from w03Twoge chandraScript.sh
 #'SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Alpha2023@db1.chzveui56egk.us-east-1.rds.amazonaws.com/calc"' > .env
 

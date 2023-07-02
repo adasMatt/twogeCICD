@@ -1,0 +1,33 @@
+
+ 1527  eb init
+ 1531  eb create simple-flask-dev-env --single
+ 1534  eb create simple-flask-dev-env --single
+ 1535  git clone https://github.com/chandradeoarya/eb-node-hw
+ 1536  cd eb-node-hw/
+ 1537  eb init
+ 1538  eb create node-js-hello-world-dev
+ 1540  eb create node-js-hello-world-dev1
+ 1546  eb create simple-flask-dev-env1 --single
+ 1547  cd eb-node-hw/
+ 1550  eb deploy
+ 1556  eb init
+ 1557  eb create dojo-jump-eb
+ 1571  eb init
+ 1572  eb create game2048-eb-dev --single
+ 1581  eb deploy
+ 1588  cd codePlatoon/w10EB/eb-node-hw/
+ 1594  eb create node-js-hello-world-prod
+ 1595  eb terminate
+ 1614  eb init
+ 1615  eb create tomcatSnakeyyyBbyyy --single
+ 1690  eb 
+ 1691  eb -h
+ 
+ 
+ 1896  eb init
+ 1897  eb create twoge-app-server
+ 1898  eb create twoge-app-server --single
+ 1899  eb setenv SQLALCHEMY_DATABASE_URI=postgresql://mattyyy:twoge1234321@twoge-postgres-db-tf.ceqijcw6wwya.eu-central-1.rds.amazonaws.com:5432/twogedbtf
+ 1905  git commit -m 'removed a commment in Dockerfile to attempt to make sure eb init worked'; git push
+ 1907  eb deploy
+ 1933  eb init
