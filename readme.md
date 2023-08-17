@@ -23,7 +23,7 @@ Before CICD, the application is brought up and running via:
 3. Elastic Beanstalk CLI commands:
  	- eb init
  	- eb create twoge-app-server --single
- 	- eb setenv SQLALCHEMY_DATABASE_URI=postgresql://<user>:<password>@<path-to-db-host>:5432/twogedbtf
+ 	- eb setenv SQLALCHEMY_DATABASE_URI=postgresql://user:password@db-host:5432/twogedbtf
  	- eb deploy
 4. Now the app is running and it is .github/workflows/cicd.yml's time to shine :)
 	- tbc. What to inlcude? Different Jobs explained?
