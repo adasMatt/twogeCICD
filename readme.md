@@ -25,9 +25,9 @@ Before CICD, the application is brought up and running via:
  	- eb create twoge-app-server --single
  	- eb setenv SQLALCHEMY_DATABASE_URI=postgresql://user:password@db-host:5432/twogedbtf
  	- eb deploy
-4. Now the app is running and it is .github/workflows/cicd.yml's time to shine :)
-	- tbc. What to inlcude? Different Jobs explained?
- 	- 
+4. Now the app is running and it is [CICD's](https://github.com/adasMatt/twogeCICD/blob/master/.github/workflows/cicd.yml) time to shine:
+	- Choose a branch for updates to be applied to image and infrastructure when pushed to repository
+ 	- Define jobs for unit testing (ideally, but unit tests are not included in this example), image updates, and application/infrastructure updates
 
 ## Other things
 The creation of the AWS RDS instance was done using Terraform code as outlined in a few examples, changing and adding whatever is necessary for the project:
