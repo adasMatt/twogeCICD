@@ -1,4 +1,4 @@
-# **Twoge (application by Chandradeo, with CICD by Matt for Code Platoon Assessment)**
+# **Twoge CICD by Matt**
 
 <h1 align="center">
 	<img
@@ -18,7 +18,7 @@ Twoge is a social media platform dedicated solely to tweets about Dodge. This ap
 
 ## App launch and CICD Implementation
 Before CICD, the application is brought up and running via:
-1. Terraform technology to create the RDS instance (not included in this repo, but see Other Things topic below for more information on how to set that up)
+1. Terraform technology to create the AWS RDS instance (not included in this repo, but see Other Things topic below for more information on how to set that up)
 2. Dockerfile (add more detail)
 3. Elastic Beanstalk CLI commands:
  	- eb init
@@ -36,4 +36,3 @@ The creation of the AWS RDS instance was done using Terraform code as outlined i
 	- https://registry.terraform.io/modules/terraform-aws-modules/rds/aws/latest
 - also this tutorial: https://fitdevops.in/create-rds-instances-using-terraform/
 
-Some other other (delete this line if no other)...
